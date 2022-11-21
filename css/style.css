@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  transition: all 0.3s linear;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+button:hover{
+  opacity: 0.8;
+}
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/****************** Header styles start ****************/
+.site-header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 30px 0;
+  background-color: #ffffff;
+}
+.navbar-list {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+.navbar-item {
+  margin-right: 30px;
+}
+.navbar-link {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  text-align: center;
+  color: #333333;
+  text-decoration: none;
+  padding-bottom: 6px;
+}
+.navbar-link:hover {
+  border-bottom: 1px solid #000;
+  transform: rotate(0.16deg);
+}
+.question {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  text-align: center;
+  color: #666666;
+  border-bottom: 1px solid #333333;
+  transform: rotate(0.16deg);
+}
+
+/****************** Header styles end ****************/
+
+/****************** Main styles start ****************/
+
+/* Hero section styles  start */
+.hero-section {
+  padding-top: 140px;
+  background-image: url("../images/intro-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 587px 565px;
+  background-position: calc(50% + 550px) calc(50% + 30px);
+  border-bottom: 2px solid #dddddd;
+}
+.hero-section-wrappper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin: 0;
+  padding-bottom: 185px;
+}
+.hero-section-title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  text-align: center;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 30px;
+}
+.like {
+  width: 490px;
+  padding-left: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #777777;
+  border-left: 3px solid #888888;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.btn {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  padding: 12px 38.5px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #ea625c;
+  border: none;
+}
+
+/* Hero section styles  start */
+
+/* description-section styles start */
+.description-section-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 140px;
+  padding-top: 68px;
+  padding-left: 0;
+  list-style: none;
+}
+.description-section-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 280px;
+}
+.description-section-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #222222;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.description-section-desc {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #333333;
+}
+.square {
+  width: 8px;
+  height: 8px;
+  background-color: #dddddd;
+  box-shadow: 15px 0 1px 0 #dddddd, 30px 0 1px 0 #dddddd;
+}
+
+.description-section-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+hr {
+  width: 40px;
+  border: 3px solid #ea625c;
+}
+.description-section-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ea625c;
+}
+
+.nike-wrapper {
+  padding-top: 106px;
+  padding-bottom: 176px;
+  background-image: url(../images/watch-in-hand.jpg);
+  background-repeat: no-repeat;
+  background-size: 400px 599px;
+  background-position: calc(50% + 303px) calc(50% + -45px);
+}
+
+.nike-wrapper-title {
+  width: 380px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  margin: 0;
+  margin-bottom: 30px;
+  color: #000000;
+}
+.nike-wrapper-btn {
+  padding: 12px 90px;
+}
+/* description-section styles end */
+/****************** Main styles end ****************/
+
+/****************** Footer styles start ****************/
+.site-footer {
+  background-image: url("../images/runners\ 1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.site-footer-wrappee {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 240px;
+  padding-bottom: 239px;
+}
+.site-footer-title {
+  width: 490px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.site-footer-desc {
+  width: 490px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding-left: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  border-left: 3px solid #ffffff;
+}
+.site-footer-btn {
+  margin-right: 210px;
+  padding: 12px 46px;
+  background: #ea625c;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  border: none;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/****************** Footer styles end ****************/
